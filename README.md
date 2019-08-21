@@ -5,6 +5,11 @@ Für das ausführen diesen Skripts muss Python, sowie die pip-Module google-api-
 
 Der Zugriff erfolgt derzeit noch per Kommandozeile. 
 Das Schema ist folgendes:                 
-  python search_analytics_api_sample.py [URL] [STARTDATUM] [ENDDATUM]
+
+	python search_analytics_api_sample.py [URL] [STARTDATUM] [ENDDATUM]
+		
+Beispiel:                     
+
+	python search_analytics_api_sample.py https://example.com 2019-05-01 2019-05-30
 
 Für das erfolgreiche Ausführen muss man sich über einen Link authorisieren. Dieser wird beim ersten Ausführen angezeigt.
